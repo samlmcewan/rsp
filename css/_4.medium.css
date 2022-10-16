@@ -1,5 +1,14 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    #main-nav .nav-item {
+        border-bottom: none;
+    }
     
+    #main-nav .nav-item:not(:last-of-type) .nav-link::after {
+       content: '|';
+       font-size: .8rem;
+       padding-left: 1rem;
+    }
+   
 }

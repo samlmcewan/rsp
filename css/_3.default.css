@@ -13,6 +13,7 @@
 
 #main-nav .nav-item {
     border-bottom: 2px solid #f0f1f3;
+    text-transform: uppercase;
 }
 
 /* Burger menu toggle */
