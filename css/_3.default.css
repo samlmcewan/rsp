@@ -128,47 +128,66 @@ body {
 #hero-carousel .swiper-wrapper {
     align-items: baseline;
 }
+.swiper-wrapper {
+    justify-content: space-between;
+}
+/* General slider image  */
 .img-bg {
-    height: 570px;
-    width: 510px;
+    width: 80%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-position: center 30%;
-    transition: all .8s;
+    /* background-position: center 30%; */
+    /* transition: all .8s; */
+    transition: width .8s, height .8s;
 }
 
+.box-img {
+    transition: width .8s, height .8s;
+}
+
+
+/* Right slider image  */
+.swiper-slide.swiper-slide-next {
+    width: 55%!important;
+}
+.swiper-slide.swiper-slide-next .img-bg {
+    width: 90%;
+    height: 570px;
+    /* transition: all .8s; */
+}
+.swiper-slide.swiper-slide-next .box-img {
+    width: 10%;
+    background-color: var(--red);
+    height: 570px;
+    /* transition: all .8s; */
+    clip-path: polygon(100% 10%, 100% 100%, 0 100%, 0 0);
+}
+
+/* Left slider image */
 .swiper-slide.swiper-slide-active {
-    align-items: flex-end;
+    width: 45%!important;
 }
-
 .swiper-slide.swiper-slide-active .img-bg {
     height: 440px;
-    width: 400px;
+    width: 75%;
     bottom: 0;
 }
+.swiper-slide.swiper-slide-active .box-img {
+    width: 25%;
+    height: 440px;
+    background-color: var(--gray-lighter);
+    clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 0);
+}
+
+/* Prev (invisible) slider image  */
 .swiper-slide.swiper-slide-prev .img-bg {
     height: 300px;
     width: 270px;
     bottom: 0;
 }
 
-.box-img {
-    background-color: var(--red);
-    height: 570px;
-    width: 200px;
-    margin-right: -30px;
-    background-position: center 30%;
-    transition: all .8s;
-    
 
-}
-.swiper-slide.swiper-slide-active .box-img {
-    height: 440px;
-    width: 240px;
-    bottom: 0;
-    margin-right: -200px;
-}
 .swiper-slide.swiper-slide-prev .box-img {
     height: 300px;
     /* width: 270px; */
@@ -180,6 +199,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
 /* Pagination  */
 .custom-swiper-button-next, .custom-swiper-button-prev {
     position: absolute;
