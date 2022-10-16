@@ -1,5 +1,23 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    #main-nav .nav-item {
+        border-bottom: none;
+        font-size: 0.875rem;
+    }
+    /* #main-nav .nav-item:not(:last-of-type) .nav-link::after {
+        padding-left: 1rem;
+     } */
+     #main-nav .nav-item:not(:last-of-type) .nav-link::after {
+        content: '|';
+        font-size: .8rem;
+        padding-left: 1rem;
+     }
+
+     .social-icons-top {
+        position: absolute;
+        top: calc(50px + 1.5rem);
+        left: 20;
+     }
 
 }

@@ -2,13 +2,14 @@
 
 @media (min-width: 768px) {
     #main-nav .nav-item {
-        border-bottom: none;
+        /* border-bottom: none;
+        font-size: 0.813rem; */
     }
     
-    #main-nav .nav-item:not(:last-of-type) .nav-link::after {
+    /* #main-nav .nav-item:not(:last-of-type) .nav-link::after {
        content: '|';
        font-size: .8rem;
-       padding-left: 1rem;
-    }
+       padding-left: 0.5rem;
+    } */
    
 }

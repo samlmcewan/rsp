@@ -4,7 +4,9 @@
 # Typography
 --------------------------------------------------------------*/
 
-
+body {
+     font-family: 'Roboto', sans-serif;
+}
 
 
 /*--------------------------------------------------------------
@@ -14,6 +16,11 @@
 #main-nav .nav-item {
     border-bottom: 2px solid #f0f1f3;
     text-transform: uppercase;
+}
+
+#main-nav .nav-item .nav-link {
+    letter-spacing: .2rem;
+    font-weight: 500;
 }
 
 /* Burger menu toggle */
@@ -27,7 +34,7 @@
     height: 23px;
     position: relative;
     margin: 0px;
-    margin-top: 8px!important;
+    /* margin-top: 8px!important; */
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
