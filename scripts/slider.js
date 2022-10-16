@@ -59,7 +59,7 @@
    * Init swiper slider with 2 slides at once in desktop view
    */
   new Swiper('.sliderCarousel', {
-    speed: 1500,
+    speed: 2000,
     loop: true,
     autoplay: {
       delay: 3000,
