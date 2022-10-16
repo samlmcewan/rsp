@@ -139,11 +139,13 @@ body {
     position: relative;
     /* background-position: center 30%; */
     /* transition: all .8s; */
-    transition: width .8s, height .8s;
+    transition: width .8s, height .8s, opacity .8s;
+    transform-origin:right bottom;
 }
 
 .box-img {
-    transition: width .8s, height .8s;
+    transition: width .8s, height .8s, opacity .8s;
+    transform-origin:right bottom;
 }
 
 
@@ -183,17 +185,18 @@ body {
 /* Prev (invisible) slider image  */
 .swiper-slide.swiper-slide-prev .img-bg {
     height: 300px;
-    width: 270px;
+    width: 75%;
     bottom: 0;
 }
-
-
 .swiper-slide.swiper-slide-prev .box-img {
+    background-color: var(--gray-lighter);
+    clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 0);
     height: 300px;
-    /* width: 270px; */
+    width: 25%;
     bottom: 0;
     opacity: 0;
 }
+
 .swiper-slide {
     display: flex;
     flex-direction: row;
