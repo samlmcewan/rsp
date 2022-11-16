@@ -124,7 +124,33 @@ body {
 --------------------------------------------------------------*/
 .hero-carousel {
     overflow: hidden;
+    position: relative;
 }
+
+#hero-carousel .hero-angle {
+  
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+/* #hero-carousel .hero-angle-2 {
+    background-color: #63686e;
+    opacity: .64;
+    z-index: 9999;
+    clip-path: polygon(0 24%, 68% 0, 100% 13%, 100% 38%, 67% 34%, 0 44%);
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+} */
+
+
 #hero-carousel .swiper-wrapper {
     align-items: baseline;
 }
@@ -136,15 +162,16 @@ body {
     width: 80%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: right;
     position: relative;
     /* background-position: center 30%; */
     /* transition: all .8s; */
-    transition: width 2s, height 2s, opacity 2s;
+    transition: width 2s, height 2s, opacity 2s, background-color 2s;
     /* transform-origin:right bottom; */
 }
 
 .box-img {
-    transition: width 2s, height 2s, opacity 2s;
+    transition: width 2s, height 2s, opacity 2s, background-color 2s;
     /* transform-origin:right bottom; */
 }
 
@@ -154,16 +181,16 @@ body {
     width: 55%!important;
 }
 .swiper-slide.swiper-slide-next .img-bg {
-    width: 90%;
-    height: 570px;
+    width: 85%;
+    height: calc(770px/2);
     /* transition: all .8s; */
 }
 .swiper-slide.swiper-slide-next .box-img {
-    width: 10%;
+    width: 15%;
     background-color: var(--red);
-    height: 570px;
+    height: calc(770px/2);
     /* transition: all .8s; */
-    clip-path: polygon(100% 10%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 6%, 100% 100%, 0 100%, 0 0);
 }
 
 /* Left slider image */
@@ -171,15 +198,15 @@ body {
     width: 45%!important;
 }
 .swiper-slide.swiper-slide-active .img-bg {
-    height: 440px;
+    height: calc(640px/2);
     width: 75%;
     bottom: 0;
 }
 .swiper-slide.swiper-slide-active .box-img {
     width: 25%;
-    height: 440px;
+    height: calc(640px/2);
     background-color: var(--gray-lighter);
-    clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 10%, 100% 100%, 0 100%, 0 0);
 }
 
 /* Prev (invisible) slider image  */
@@ -204,31 +231,67 @@ body {
     align-items: center;
 }
 
-/* Pagination  */
-.custom-swiper-button-next, .custom-swiper-button-prev {
+#hero-carousel .angle-gray {
+    background-color: var(--gray-mid-75);
+}
+
+#hero-carousel .angle-text p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Angle Backgrounds
+--------------------------------------------------------------*/
+.angle-container {
+    background-color: red;
+  
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+   height: 100%;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }
-.custom-swiper-button-next span, .custom-swiper-button-prev span {
-    font-size: 20px;
+
+.angle-1 {
+   
+    clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 70%);
+    width: 100%;
+    /* opacity: .6; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.angle-gray { 
+    background-color:  var(--gray-mid);
+}
+/* .angle-text-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: red;
+    opacity: .5;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+} */
+
+.angle-text {
     color: #ffffff;
-    transition: 0.3s all ease;
+    padding-right: .5rem;
+    text-align: right;
+    z-index: 999;
 }
-.custom-swiper-button-prev {
-    left: 40px;
-}
-.custom-swiper-button-next {
-    right: 40px;
-}
-
-.swiper-pagination-bullet {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    opacity: .8;
-}
-.swiper-pagination-bullet-active {
-    background-color: #ffffff;
-}
-

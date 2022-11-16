@@ -1,5 +1,7 @@
-/* Xtra small devices (iPhone 5/SE, screen width < 363px) */
+/* Xtra small devices (iPhone 5/SE, screen width < 375px) */
 
-@media (max-width: 363px) { 
-  
+@media (max-width: 375px) { 
+    #hero-carousel .angle-text p {
+        font-size: 0.875rem;
+    }
 }
