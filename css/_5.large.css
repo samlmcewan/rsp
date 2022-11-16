@@ -70,6 +70,17 @@
      section p {
       font-size: 1.25rem;
      }
+
+     /* Stats  */
+     .stats {
+      margin-top: -50px;
+  }
+.stats-angle {
+   height: 250px;
+}
+  .stats-angle-white {
+   margin-top: -65px;
+  }
      
 
 }

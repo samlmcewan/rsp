@@ -1,6 +1,13 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+
+    /* Type  */
+
+    .section-title {
+        font-size: 2.75rem;
+    }
     /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
@@ -110,4 +117,11 @@
     clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 70%); */
     clip-path: polygon(0 55%, 75% 25%, 100% 35%, 100% 75%, 75% 70%, 0 85%);
 }
+/* Stats  */
+.stats {
+    margin-top: -35px;
+}
+.stats-angle {
+    height: 180px;
+ }
 }
