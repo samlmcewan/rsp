@@ -81,6 +81,14 @@
   .stats-angle-white {
    margin-top: -65px;
   }
+
+  .stats p {
+   font-size: 36px;
+   padding-top: 26px;
+   padding-left: 85px;
+   transform: rotate(354.5deg);
+  }
      
 
 }
+
