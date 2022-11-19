@@ -72,10 +72,10 @@
       type: 'bullets',
       clickable: true
     },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
     breakpoints: {
       320: {
         slidesPerView: 2,
@@ -89,3 +89,35 @@
     }
   });      
 
+/**
+   * Init swiper slider with 1 slide at once in desktop view
+   */
+   new Swiper('.sliderTestimonials', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      },
+
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      }
+    }
+  });

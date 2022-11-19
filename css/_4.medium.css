@@ -11,7 +11,7 @@
     /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
-.hero-carousel {
+#hero-carousel .hero-carousel {
     overflow: hidden;
 }
 
@@ -27,7 +27,7 @@
 #hero-carousel .swiper-wrapper {
     align-items: baseline;
 }
-.swiper-wrapper {
+#hero-carousel .swiper-wrapper {
     justify-content: space-between;
 }
 /* General slider image  */
@@ -49,7 +49,7 @@
 
 
 /* Right slider image  */
-.swiper-slide.swiper-slide-next {
+#hero-carousel .swiper-slide.swiper-slide-next {
     width: 55%!important;
 }
 .swiper-slide.swiper-slide-next .img-bg {
@@ -66,7 +66,7 @@
 }
 
 /* Left slider image */
-.swiper-slide.swiper-slide-active {
+#hero-carousel .swiper-slide.swiper-slide-active {
     width: 45%!important;
 }
 .swiper-slide.swiper-slide-active .img-bg {
@@ -97,7 +97,7 @@
     opacity: 0.25;
 }
 
-.swiper-slide {
+#hero-carousel .swiper-slide {
     display: flex;
     flex-direction: row;
     align-items: center;

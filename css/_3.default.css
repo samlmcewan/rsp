@@ -210,7 +210,7 @@ section p {
 
 
 /* Right slider image  */
-.swiper-slide.swiper-slide-next {
+#hero-carousel .swiper-slide.swiper-slide-next {
     width: 55%!important;
 }
 .swiper-slide.swiper-slide-next .img-bg {
@@ -227,7 +227,7 @@ section p {
 }
 
 /* Left slider image */
-.swiper-slide.swiper-slide-active {
+#hero-carousel .swiper-slide.swiper-slide-active {
     width: 45%!important;
 }
 .swiper-slide.swiper-slide-active .img-bg {
@@ -258,7 +258,7 @@ section p {
     opacity: 0.25;
 }
 
-.swiper-slide {
+#hero-carousel .swiper-slide {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -525,7 +525,7 @@ color: var(--red);
 
 }
 .expertise img, .area-body svg, .area-text-bg {
-    transition: all .3s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 .area-icon svg {
     width: 23px;
@@ -546,8 +546,11 @@ color: var(--red);
     background-color: var(--red-90);
 }
 .expertise a:hover img {
-    opacity: .67;
+    opacity: .9;
 }
 .expertise a:hover .area-body svg {
     transform: translateX(4px);
 }
+/*--------------------------------------------------------------
+# Testimonials slider
+--------------------------------------------------------------*/
