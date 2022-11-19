@@ -138,4 +138,7 @@
     border-right: 1px solid var(--gray-light);
     /* padding-bottom: 0; */
 }
+/* Philosophy  */
+.philosophy .angle-bg {
+    height: 80vh;}
 }

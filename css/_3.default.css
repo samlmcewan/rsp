@@ -439,3 +439,42 @@ color: var(--red);
    transform: translateX(.5rem);
 }
 
+/*--------------------------------------------------------------
+# Philosophy
+--------------------------------------------------------------*/
+.philosophy {
+    overflow: visible;
+}
+.philosophy-container {
+    position: relative;
+}
+
+.philosophy .section-title {
+    font-size: 3rem;
+}
+
+.philosophy p {
+    color: #ffffff;
+}
+.philosophy .text {
+    /* position: relative; */
+    background-color: var(--gray-main);
+}
+.philosophy .angle {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+
+.philosophy .angle-bg {
+    height: 125vh;
+    clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 70%);
+    width: 100%;
+    background-color: var(--gray-light);
+    /* background-color: var(--red); */
+    /* position: absolute; */
+   
+    z-index: -9;
+}

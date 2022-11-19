@@ -4,9 +4,11 @@
 
     /* Colours  */
     --red: #EB2C49;
+    --gray-main: #4b4d50cc;
     --gray-mid: #64686e;
     --gray-mid-75: #64686ebf;
     --gray-dark: #5d6162;
+    --gray-dark-90: #5d6162e6;
     --gray-lighter: #a7a8ab;
     --gray-light: #dfdfe0;
 }
