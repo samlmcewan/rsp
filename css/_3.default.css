@@ -493,8 +493,14 @@ color: var(--red);
     color: #ffffff;
 }
 
+.expertise img {
+    object-fit: cover;
+    height: 400px;
+    width: 87.5%;
+}
+
 .expertise .area-body h2 {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
