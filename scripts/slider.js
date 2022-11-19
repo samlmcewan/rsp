@@ -65,6 +65,7 @@
       delay: 3000,
       disableOnInteraction: false
     },
+    simulateTouch:false,
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',

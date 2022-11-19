@@ -88,8 +88,13 @@
    padding-left: 85px;
    transform: rotate(354.5deg);
   }
+  /* Philosophy  */
+  .philosophy .section-title {
+   font-size: 3.5rem;
+  }
   .philosophy .angle-bg {
    clip-path: polygon(0 50%, 85% 20%, 100% 35%, 100% 70%, 75% 60%, 0 70%);
+   /* clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 70%); */
    height: 125vh;
 
 }

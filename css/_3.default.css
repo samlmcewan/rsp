@@ -145,6 +145,9 @@ section p {
 .img-angle-top {
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 11%);
 }
+.img-angle-top-folio {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 15%);
+}
 .img-angle-bottom {
     clip-path: polygon(0 0, 100% 0, 100% 95%, 75% 85%, 0 100%);
 }
@@ -470,7 +473,7 @@ color: var(--red);
 
 .philosophy .angle-bg {
     height: 125vh;
-    clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 70%);
+    clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 75%);
     width: 100%;
     background-color: var(--gray-light);
     /* background-color: var(--red); */
@@ -481,4 +484,50 @@ color: var(--red);
 
 .philosophy p:nth-of-type(1) {
     font-size: 1.25rem;
+}
+
+/*--------------------------------------------------------------
+# Expertise 
+--------------------------------------------------------------*/
+.expertise p, .expertise .area-body h2 {
+    color: #ffffff;
+}
+
+.expertise .area-body h2 {
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+
+.expertise p {
+    font-size: .875rem;
+}
+.area-container {
+    position: relative;
+    text-decoration: none;
+}
+.area-text {
+    
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    width: 83%;
+
+}
+.area-text-bg {
+    background-color: var(--gray-dark-90);
+    clip-path: polygon(100% 20%, 100% 0, 100% 100%, 0 100%, 0 0%);
+}
+.area-icon svg {
+    width: 23px;
+}
+.area-body svg {
+    width: 40px;
+}
+
+.area-line {
+    height: 100%;
+    position: absolute;
+    left: -11px;
+    bottom: -5px;
+    transform: scale(0.9, 1.09);
 }

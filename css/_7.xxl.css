@@ -1,0 +1,5 @@
+@media (min-width: 1400px) {
+    .philosophy .angle-bg {
+        /* clip-path: polygon(0 50%, 85% 30%, 100% 35%, 100% 70%, 75% 60%, 0 70%); */
+    }
+}
