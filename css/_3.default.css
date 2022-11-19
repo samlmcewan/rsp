@@ -522,6 +522,10 @@ color: var(--red);
 .area-text-bg {
     background-color: var(--gray-dark-90);
     clip-path: polygon(100% 20%, 100% 0, 100% 100%, 0 100%, 0 0%);
+
+}
+.expertise img, .area-body svg, .area-text-bg {
+    transition: all .3s ease-in-out;
 }
 .area-icon svg {
     width: 23px;
@@ -536,4 +540,14 @@ color: var(--red);
     left: -11px;
     bottom: -5px;
     transform: scale(0.9, 1.09);
+}
+
+.expertise a:hover .area-text-bg {
+    background-color: var(--red-90);
+}
+.expertise a:hover img {
+    opacity: .67;
+}
+.expertise a:hover .area-body svg {
+    transform: translateX(4px);
 }
