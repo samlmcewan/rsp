@@ -478,3 +478,7 @@ color: var(--red);
    
     z-index: -9;
 }
+
+.philosophy p:nth-of-type(1) {
+    font-size: 1.25rem;
+}

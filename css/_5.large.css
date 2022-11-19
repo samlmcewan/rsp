@@ -93,6 +93,10 @@
    height: 125vh;
 
 }
+.philosophy p:nth-of-type(1) {
+   font-size: 1.875rem;
+   margin-bottom: .5rem;
+}
 
 }
 
