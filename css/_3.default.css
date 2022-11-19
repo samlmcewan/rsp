@@ -554,3 +554,31 @@ color: var(--red);
 /*--------------------------------------------------------------
 # Testimonials slider
 --------------------------------------------------------------*/
+/* Slider image  */
+#testimonials-carousel .swiper-slide.swiper-slide-next {
+    width: 55%!important;
+}
+.swiper-slide.swiper-slide-next .img-bg {
+    width: 85%;
+    height: calc(770px/2);
+    /* transition: all .8s; */
+}
+.swiper-slide.swiper-slide-next .box-img {
+    width: 15%;
+    background-color: var(--red);
+    height: calc(770px/2);
+    /* transition: all .8s; */
+    clip-path: polygon(100% 6%, 100% 100%, 0 100%, 0 0);
+}
+
+#testimonials-carousel .box-img {
+    clip-path: polygon(100% 15%, 100% 100%, 0 100%, 0 0);
+    width: 20%;
+}
+
+
+
+#testimonials-carousel .box-img {
+    background-color: var(--gray-lighter);
+}
+

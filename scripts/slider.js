@@ -92,9 +92,27 @@
 /**
    * Init swiper slider with 1 slide at once in desktop view
    */
+
+  // Make loop true if there are more than one slides added to testimonial slider 
+
+  const testimonialS = document.querySelector('#testimonials-carousel');
+  const tSlides = testimonialS.querySelectorAll('.swiper-slide');
+  let toLoop = false;
+
+if(tSlides.length > 1) {
+  toLoop = true;
+}
+
+console.log(toLoop);
+
+
+
+
    new Swiper('.sliderTestimonials', {
-    speed: 600,
-    loop: true,
+    speed: 2000,
+    loop: toLoop,
+    spaceBetween: 0,
+    simulateTouch:false,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
@@ -108,16 +126,10 @@
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 0
-      },
-
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 0
-      }
     }
+
+    
+   
   });
+
+  
