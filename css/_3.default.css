@@ -565,17 +565,13 @@ color: var(--red);
 
 }
 
-
 #testimonials-carousel .box-img {
     clip-path: polygon(100% 15%, 100% 100%, 0 100%, 0 0);
     width: 20%;
 }
 
-
-
 #testimonials-carousel .box-img {
     background-color: var(--gray-lighter);
-    
 }
 
 #testimonials-carousel h3 {
@@ -589,3 +585,207 @@ color: var(--red);
     font-size: 1.5rem;
 }
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+    /*background-color: var(--black);*/
+    /*background-color: var(--mid-25);*/
+    border-top: 1px solid var(--gray-dark);
+    padding-top: 4rem;
+}
+
+
+footer a {
+     font-size: 14px;
+     text-decoration: none;
+     font-weight: 400;
+     color: var(--light);
+}
+ 
+footer a:hover {
+     text-decoration: underline;
+     color: #ffffff;
+}
+
+footer a:hover i {
+    color: #ffffff;
+}
+
+
+.footer-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--light);
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    padding-left: 2.3rem;
+    text-indent: -1.1rem;
+
+}
+footer .fa-chevron-right {
+    /*color: #ffffff;*/
+    /*color: #ffffff;*/
+    padding-right: 0.2rem;
+}
+  .shfooter .collapse {
+    display: inherit;
+  }
+
+  .shfooter i::before {
+      color: var(--light);
+  }
+  
+  .sub-footer .container {
+    border-top: 1px solid var(--light);
+    padding-top: 1rem;
+}
+
+.resize {
+    text-align: center;
+}
+    
+.resize {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+}
+  
+/* Social footer  */
+footer .fa-brands {
+    width: 7%;
+}
+
+footer .fab:before {
+    font-size: 1.1rem;
+}
+
+.social-footer ul li a:hover i {
+    /*color: var(--links); */
+    animation: icons-rise 0.3s linear forwards; 
+}
+    
+@keyframes icons-rise {
+        from {
+          transform: translateX(0px); 
+        }
+        to {
+          transform: translate(2.5px, -2.5px); 
+        } 
+}
+.social-footer a:hover {
+    text-decoration: none; 
+}
+
+.social-footer a:hover span {
+    text-decoration: underline; 
+}
+
+@keyframes arrow-right {
+    from {
+        transform: translateX(0px); 
+    }
+    to {
+        transform: translateX(3px); 
+    }
+    }
+ 
+ 
+
+footer hr:not([size]) {
+    height: 1px;
+    color: var(--light);
+    opacity: .8;
+}
+
+footer ul li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+footer ul {
+    padding: 20px 10px 10px 10px;
+}
+
+footer .fa-chevron-right {
+    display: none;
+}
+
+.footer-title {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--gray-dark);
+   font-weight: 600;
+}
+footer h4 {
+font-size: 1.5rem;
+color: var(--gray-mid);
+font-weight: 400;
+
+}
+footer p, footer li {
+    font-size: 0.875rem;
+    margin-bottom: 0.2rem;
+    color: var(--gray-mid);
+}
+.shfooter ul {
+    margin-bottom: 0;
+}
+
+.shfooter .collapse {
+    display: none;
+}
+
+.shfooter .collapse.show {
+    display: block;
+}
+
+.shfooter .title .bi-chevron-down,
+.shfooter .title[aria-expanded=true] .bi-chevron-right {
+    display: none;
+}
+
+.shfooter .title[aria-expanded=true] .bi-chevron-down {
+    display: block;
+}
+
+.shfooter .navbar-toggler {
+    display: inline-block;
+    padding: 0;
+}
+
+/* NES logo footer  */
+footer .nes-logo {
+    text-align: center;
+}
+
+footer .nes-logo-top {
+    width: 68px;
+}
+
+.sub-footer p {
+    /*color: var(--light);*/
+    color: var(--light);
+    font-size: 14px;
+}
+
+.sub-footer .container {
+    padding: 1rem;
+}
+
+footer .stats-angle {
+    background-color: var(--gray-footer);
+    height: 300px;
+    clip-path: polygon(0 45%, 90% 0, 100% 15%, 100% 80%, 90% 65%, 0 100%);
+}
+footer .stats-angle .copyright {
+    margin-right: 10%;
+}
+footer .stats-angle p {
+    font-size: 1rem;
+    color: #ffffff;
+   
+}

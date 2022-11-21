@@ -103,5 +103,24 @@
    margin-bottom: .5rem;
 }
 
+ /*Footer */
+    
+ footer ul li a:hover .fa-chevron-right {
+   animation: arrow-right 0.3s linear forwards; 
+         
+     }
+ 
+ @keyframes arrow-right {
+   from {
+     transform: translateX(0px); }
+   to {
+     transform: translateX(3px); } 
+     
+ }
+ footer .stats-angle {
+  
+   height: 400px;
+}
+
 }
 

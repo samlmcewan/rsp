@@ -154,4 +154,34 @@
  {
     height: 100%;
  }
+
+
+  /*Footer */
+    
+  footer  .nes-logo {
+    padding-top: 0;
+}
+footer .nes-logo-top {
+width: 84px;
+}
+footer .nes-logo a {
+    float: right;
+}
+
+.shfooter .collapse {
+display: block;
+}
+footer .fa-chevron-right {
+display: inline-block;
+}
+footer ul li {
+margin-bottom: 10px;
+padding-left: 2.3rem;
+text-indent: -1.1rem;
+
+}
+footer .stats-angle {
+  
+    height: 300px;
+}
 }
