@@ -103,6 +103,19 @@
    margin-bottom: .5rem;
 }
 
+/*--------------------------------------------------------------
+# Inner banner
+--------------------------------------------------------------*/
+.angle-line-banner {
+   border-top: 1px solid #212529;
+   rotate: 353deg;
+   margin-top: 4rem;
+   width: 110vw;
+   margin-bottom: -2rem;
+   margin-left: 0;
+}
+
+
  /*Footer */
     
  footer ul li a:hover .fa-chevron-right {
