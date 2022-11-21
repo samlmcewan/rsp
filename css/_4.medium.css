@@ -168,6 +168,17 @@
 }
 
 
+/* Our story  */
+.our-story .angle-bg {
+    height: 125vh;
+    clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 75%);
+    width: 100%;
+    background-color: var(--gray-lightest);
+    /* background-color: var(--red); */
+    /* position: absolute; */
+    
+    z-index: -9;
+    }
 
   /*Footer */
     

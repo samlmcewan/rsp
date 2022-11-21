@@ -35,7 +35,14 @@ section p {
     border-color: var(--red);
 }
 
+section {
+    overflow-y: hidden;
+}
 
+.our-story p:nth-of-type(1) {
+    font-weight: 600;
+    padding-top: 2rem;
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -669,6 +676,34 @@ color: var(--red);
 .breadcrumb-item+.breadcrumb-item::before {
     color: #ffffff;
 }
+
+/*--------------------------------------------------------------
+# Our story
+--------------------------------------------------------------*/
+.our-story  .angle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.our-story-container {
+    position: relative;
+}
+.our-story .angle-bg {
+height: 208vh;
+clip-path: polygon(0 50%, 75% 25%, 100% 35%, 100% 70%, 75% 65%, 0 75%);
+width: 100%;
+background-color: var(--gray-lightest);
+/* background-color: var(--red); */
+/* position: absolute; */
+
+z-index: -9;
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
