@@ -166,8 +166,17 @@
     margin-bottom: -1rem;
     margin-left: 0;
 }
-
-
+.inner-banner {
+height: 16rem;
+}
+.inner-banner h1 {
+    margin-top: 5rem;
+    font-size: 3.25rem;
+ }
+ .inner-banner svg {
+    width: 55%;
+    opacity: 1;
+ }
 /* Our story  */
 .our-story .angle-bg {
     height: 125vh;
