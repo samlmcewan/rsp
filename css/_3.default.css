@@ -741,10 +741,10 @@ z-index: -9;
     position: absolute;
    left: 0;
   /* bottom: -5%; */
-  height: 400px;
+  height: 392px;
   /* bottom: 0; */
-  top: calc(50% - 150px);
- 
+  top: calc((100% - 6rem) - 200px);
+  clip-path: polygon(0 50%, 35% 0, 100% 35%, 100% 70%, 35% 65%, 0 75%);
    }
 
    
@@ -781,15 +781,14 @@ z-index: -9;
    }
 
    #strengths {
-    clip-path: polygon(0 19%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 100%);
     padding-top: 3rem;
 
    }
 
    #people {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
     padding-bottom: 3rem;
-
    }
 /*--------------------------------------------------------------
 # Footer

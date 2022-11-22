@@ -197,10 +197,23 @@ height: 16rem;
 
     .angle-left .angle-bg {
         /* margin-top: 0rem; */
-        height: 385px;
+        /* height: 385px; */
         top: 200px;
+        height: 315px;
+   clip-path: polygon(0 50%, 75% 0, 100% 45%, 100% 100%, 75% 65%, 0 95%);
        
     }
+    #strengths {
+        clip-path: polygon(0 19%, 100% 0%, 100% 100%, 0% 100%);
+        padding-top: 3rem;
+    
+       }
+    
+       #people {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+        padding-bottom: 3rem;
+    
+       }
 
   /*Footer */
     

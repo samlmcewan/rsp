@@ -145,8 +145,10 @@
   .angle-left .angle-bg {
    /* margin-top: 2rem; */
    top: 150px;
-   height: 420px;
+   height: 374px;
+   clip-path: polygon(0 50%, 75% 0, 100% 45%, 100% 100%, 75% 65%, 0 95%);
 }
+
   
 
  /*Footer */
