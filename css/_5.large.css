@@ -117,7 +117,7 @@
 .inner-banner {
    height: 22rem;
 }
-.inner-banner svg {
+.inner-banner svg, .inner-banner img {
    width: 55%;
 }
 .inner-banner h1 {
