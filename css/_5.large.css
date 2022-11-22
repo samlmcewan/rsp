@@ -121,8 +121,16 @@
    width: 55%;
 }
 .inner-banner h1 {
+   font-size: 3.875rem;
    margin-top: 8rem;
 }
+
+.project-banner img {
+   opacity: 1;
+}
+
+
+
 /* Our story  */
 .our-story .angle-bg {
    height: 155vh;
