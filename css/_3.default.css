@@ -677,6 +677,22 @@ color: var(--red);
 .about-banner h1 {
     color: #ffffff;
 }
+/* .project-banner {
+    background-color: var(--gray-light);
+} */
+.project-banner h1 {
+    color: var(--gray-dark);
+}
+/* .project-banner  {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%);
+} */
+.project-banner .container-fluid {
+    background-color: var(--gray-light);
+    /* clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%); */
+    clip-path: polygon(100% 0, 100% 100%, 0 110%, 0 40%);
+}
+/* clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%); */
+
 /*--------------------------------------------------------------
 # Breadcrumbs 
 --------------------------------------------------------------*/
@@ -689,7 +705,12 @@ color: var(--red);
 .breadcrumb-item+.breadcrumb-item::before {
     color: #ffffff;
 }
-
+.project-banner .breadcrumb-item, .project-banner .breadcrumb-item a {
+    color: var(--gray-dark)!important;
+}
+.project-banner .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--gray-dark);
+}
 /*--------------------------------------------------------------
 # Our story
 --------------------------------------------------------------*/
