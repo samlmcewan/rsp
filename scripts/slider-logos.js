@@ -2,7 +2,7 @@
    * Init swiper slider with 3 slides at once in desktop view
    */
  new Swiper('.sliderMemberships', {
-    speed: 2000,
+    speed: 1500,
     loop: true,
     spaceBetween: 0,
     simulateTouch:false,
@@ -23,12 +23,17 @@
     },
     breakpoints: {
             320: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 40
             },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 40
+              },
+        
       
             1200: {
-              slidesPerView: 3,
+              slidesPerView: 4,
             }
           }
    
@@ -38,7 +43,7 @@
    * Init swiper slider with 3 slides at once in desktop view
    */
  new Swiper('.sliderAwards', {
-    speed: 2000,
+    speed: 1500,
     loop: true,
     spaceBetween: 0,
     simulateTouch:false,
@@ -59,12 +64,16 @@
     },
     breakpoints: {
             320: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 40
             },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 40
+              },
       
             1200: {
-              slidesPerView: 3,
+              slidesPerView: 4,
             }
           }
    

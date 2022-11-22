@@ -795,6 +795,21 @@ z-index: -9;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
     padding-bottom: 3rem;
    }
+
+
+/* Memberships */
+
+/* Awards  */
+
+.swiper-button-next::after {
+    color: var(--gray-dark);
+}
+
+.swiper-button-prev::after {
+    color: var(--gray-dark);
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
