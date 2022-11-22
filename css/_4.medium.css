@@ -189,6 +189,19 @@ height: 16rem;
     z-index: -9;
     }
 
+    /* text-bg  */
+    .text-img .angle-bg {
+        height: 430px;
+        clip-path: polygon(0 40%, 80% 0, 100% 35%, 100% 90%, 80% 65%, 0 75%);
+    }
+
+    .angle-left .angle-bg {
+        /* margin-top: 0rem; */
+        height: 385px;
+        top: 200px;
+       
+    }
+
   /*Footer */
     
   footer  .nes-logo {

@@ -135,6 +135,20 @@
    z-index: -9;
    }
 
+   /* .text-img  */
+   .text-img .angle-bg {
+      height: 470px;
+      clip-path: polygon(0 50%, 80% 0, 100% 45%, 100% 100%, 80% 65%, 0 95%);
+      margin-top: -3rem;
+  }
+
+  .angle-left .angle-bg {
+   /* margin-top: 2rem; */
+   top: 150px;
+   height: 420px;
+}
+  
+
  /*Footer */
     
  footer ul li a:hover .fa-chevron-right {

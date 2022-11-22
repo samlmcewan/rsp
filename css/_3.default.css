@@ -158,6 +158,12 @@ section {
 .img-angle-bottom {
     clip-path: polygon(0 0, 100% 0, 100% 95%, 75% 85%, 0 100%);
 }
+.flip-x {
+    transform: scaleX(-1);
+}
+.img-angle-bottom-right {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 25% 85%, 0 100%);
+}
 
 /*--------------------------------------------------------------
 # Hero
@@ -702,9 +708,89 @@ z-index: -9;
 }
 
 
+/*--------------------------------------------------------------
+# Text-img sections
+--------------------------------------------------------------*/
+.text-img  .angle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
 
+.text-img-container {
+    position: relative;
+}
+.text-img .angle-bg {
+    height: 400px;
+    clip-path: polygon(0 50%, 85% 0, 100% 35%, 100% 70%, 85% 65%, 0 75%);
+    width: 100%;
+    background-color: var(--gray-lightest);
+    /* background-color: var(--red); */
+    /* position: absolute; */
+    z-index: -9;
+    margin-top: -5rem;
+}
+.text-img p:nth-of-type(1) {
+    font-weight: 600;
+    padding-top: 2rem;
+   }
 
+   .angle-left .angle-bg {
+    transform: scaleX(-1);
+    /* margin-top: 29rem; */
+    position: absolute;
+   left: 0;
+  /* bottom: -5%; */
+  height: 400px;
+  /* bottom: 0; */
+  top: calc(50% - 150px);
+ 
+   }
 
+   
+   .dark-bg, .red-bg {
+    z-index: -99999;
+   }
+   .dark-bg {
+    background-color: var(--gray-dark);
+   }
+   .dark-bg .angle-bg {
+    background-color: #000000;
+    opacity: .3;
+    z-index: 0;
+   }
+   .red-bg {
+    background-color: #c73e4a;
+   }
+   .red-bg .angle-bg {
+    background-color: #9f323b;
+    z-index: 0;
+    /* opacity: .25; */
+   }
+   
+   .red-bg h2, .red-bg p, .dark-bg h2, .dark-bg p {
+    color: #ffffff;
+   }
+
+   .red-bg .container, .red-bg .section-title,  .dark-bg .container, .dark-bg .section-title {
+    z-index: 999999999;
+   }
+
+   .red-bg .text-end, .dark-bg .text-end {
+    z-index: 9999999999;
+   }
+
+   #strengths {
+    clip-path: polygon(0 19%, 100% 0%, 100% 100%, 0% 100%);
+    padding-top: 3rem;
+
+   }
+
+   #people {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    padding-bottom: 3rem;
+
+   }
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
