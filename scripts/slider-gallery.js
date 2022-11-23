@@ -4,7 +4,7 @@
  new Swiper('.sliderGallery', {
     allowTouchMove: false,
     speed: 1500,
-    loop: true,
+    loop: false,
     spaceBetween: 0,
    
     // slidesPerGroup: 0,
@@ -30,15 +30,16 @@
     breakpoints: {
             320: {
               slidesPerView: 1,
-              spaceBetween: 40
+              // spaceBetween: 40
             },
             768: {
                 slidesPerView: 2,
-                spaceBetween: 0
+                // spaceBetween: 40
               },
       
             1200: {
               slidesPerView: 3,
+              // spaceBetween: 40
             }
           }
    

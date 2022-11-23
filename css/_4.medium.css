@@ -251,6 +251,9 @@ height: 16rem;
     .selected-about svg {
         left: -1rem;
     }
+    .image-gallery .section-title {
+        font-size: 1rem;
+    }
 
   /*Footer */
     
