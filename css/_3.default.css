@@ -670,6 +670,7 @@ color: var(--red);
 .inner-banner .container-fluid {
     /* width: 90%; */
     /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%); */
+    clip-path: polygon(90% 0, 90% 100%, 0 110%, 0 40%);
     position: absolute;
     left: 0;
     height: 100%;
