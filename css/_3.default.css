@@ -645,6 +645,9 @@ color: var(--red);
     /* border-top: 1px solid red; */
 
 }
+.project-banner svg, .project-banner img {
+    right: -30%;
+}
 
 .skew {
     position: absolute;
@@ -665,8 +668,8 @@ color: var(--red);
     margin-top: 5rem;
 }
 .inner-banner .container-fluid {
-    width: 90%;
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%);
+    /* width: 90%; */
+    /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 40%); */
     position: absolute;
     left: 0;
     height: 100%;
@@ -691,8 +694,8 @@ color: var(--red);
 } */
 .project-banner .container-fluid {
     background-color: var(--gray-light);
-    /* clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%); */
-    clip-path: polygon(100% 0, 100% 100%, 0 110%, 0 40%);
+    clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%);
+    /* clip-path: polygon(100% 0, 100% 100%, 0 110%, 0 40%); */
 }
 /* clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%); */
 
