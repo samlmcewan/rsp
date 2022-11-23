@@ -244,6 +244,13 @@ height: 16rem;
        
         font-size: .94rem;
     }
+    /* Selected project  */
+    .selected-about .section-title {
+        font-size: 1.6rem;
+    }
+    .selected-about svg {
+        left: -1rem;
+    }
 
   /*Footer */
     

@@ -783,7 +783,34 @@ color: var(--red);
     border-radius: 0;
     color: var(--gray-dark);
 }
-
+/*--------------------------------------------------------------
+# Selected project
+--------------------------------------------------------------*/
+.selected-about .section-title {
+    font-size: 2.1rem;
+}
+.selected-about table {
+    width: 100%;
+}
+.selected-about tr td:nth-of-type(1) {
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.selected-about tr {
+    color: var(--gray-mid);
+}
+.selected-about .svg-container {
+    width: 100%;
+    position: relative;
+}
+.selected-about svg {
+    width: 39.8721px;
+    height: 57.2461px;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs 

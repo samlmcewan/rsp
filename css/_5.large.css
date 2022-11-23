@@ -138,6 +138,15 @@
    right: 15%;
 }
 
+/* Selected project  */
+.selected-about .section-title {
+   font-size: 2rem;
+   margin-bottom: 2rem;
+}
+/* .selected-about svg {
+   left: -1rem;
+} */
+
 /* Our story  */
 .our-story .angle-bg {
    height: 155vh;
