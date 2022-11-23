@@ -677,6 +677,9 @@ color: var(--red);
 .about-banner h1 {
     color: #ffffff;
 }
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
 /* .project-banner {
     background-color: var(--gray-light);
 } */
@@ -692,6 +695,35 @@ color: var(--red);
     clip-path: polygon(100% 0, 100% 100%, 0 110%, 0 40%);
 }
 /* clip-path:  polygon(90% 0, 90% 100%, 0 110%, 0 40%); */
+
+.filters {
+    background-color: var(--gray-lightest);
+    border-radius: 50px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.filters li {
+    display: flex;
+}
+
+.filters .control {
+    padding: .5rem .75rem;
+    font-size: .875rem;
+    color: var(--gray-dark);
+    text-decoration: none;
+   
+}
+.filters .control:hover {
+    cursor: pointer;
+    color: var(--red);
+}
+
+.filters .active .control {
+    background-color: #ffffff;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 14px -3px rgba(66, 68, 90, 1); */
+    box-shadow: 0px 0px 14px -3px var(--gray-dark);
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs 
