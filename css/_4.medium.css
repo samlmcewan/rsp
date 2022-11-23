@@ -220,6 +220,10 @@ height: 16rem;
         padding: .25rem .5rem;
         font-size: .65rem;
        }
+       .filters .mixitup-control-active {
+        padding-left: 1rem;
+        padding-right: 1rem;
+       }
        .project-banner svg, .project-banner img {
         right: 0;
     }

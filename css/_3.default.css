@@ -721,7 +721,7 @@ color: var(--red);
     color: var(--red);
 }
 
-.filters .active .control {
+.filters .mixitup-control-active {
     background-color: #ffffff;
     border-radius: 50px;
     /* box-shadow: 0px 0px 14px -3px rgba(66, 68, 90, 1); */
