@@ -9,6 +9,7 @@
         
         <!-- CSS  -->
         <link href='/css/_0.bootstrap.min.css' rel='stylesheet' type='text/css'/>
+        <link href='/css/_0.glightbox.min.css' rel='stylesheet' type='text/css'/>
         <link href='/css/_1.swiper.css' rel='stylesheet' type='text/css'/>
         <link href='/css/_2.variables.css' rel='stylesheet' type='text/css'/>
         <link href='/css/_3.default.css' rel='stylesheet' type='text/css'/>
@@ -171,8 +172,45 @@
 
         </section><!-- ======= End Selected project about ======= -->
 
-        
+        <!-- ======= Image Gallery ======= -->
+        <section class="image-gallery py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title">Image Gallery</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper sliderGallery py-5">
+                <div class="swiper-wrapper align-items-center">
 
+                   <!-- Slide  -->
+                   <div class="swiper-slide text-center">
+                    <a href="/images/selected-projects/gallery/g1.png" class="glightbox" >
+                        <img class="img-fluid" src="/images/selected-projects/gallery/g1.png" alt="image" />
+                      </a>
+                  </div> <!-- End Slide  -->
+
+                   <!-- Slide  -->
+                   <div class="swiper-slide text-center">
+                    <a href="/images/selected-projects/gallery/g2.png" class="glightbox" >
+                        <img class="img-fluid" src="/images/selected-projects/gallery/g2.png" alt="image" />
+                      </a>
+                  </div> <!-- End Slide  -->
+
+                  <!-- Slide  -->
+                  <div class="swiper-slide text-center">
+                    <a href="/images/selected-projects/gallery/g3.png" class="glightbox" >
+                        <img class="img-fluid" src="/images/selected-projects/gallery/g3.png" alt="image" />
+                      </a>
+                  </div> <!-- End Slide  -->
+                  
+                </div>
+                <div id="g-prev" class="swiper-button-prev ps-3"></div>
+                <div id="g-next" class="swiper-button-next pe-3"></div>
+
+            </div>
+        </section> <!-- ======= End Image Gallery ======= -->
 
 
 
@@ -298,7 +336,69 @@
         <script src='/scripts/swiper-bundle.min.js'></script>  
         <script src='/scripts/slider.js'></script> 
         <script src='/scripts/slider-logos.js'></script> 
+        <script src='/scripts/slider-gallery.js'></script> 
         <script src='/scripts/mixit.js'></script> 
         <script src='/scripts/projectsfilter.js'></script> 
+        <script src='/scripts/glightbox.min.js'></script>
+        <script>
+            var lightbox = GLightbox();
+            lightbox.on('open', (target) => {
+                console.log('lightbox opened');
+            });
+            var lightboxDescription = GLightbox({
+                selector: '.glightbox2'
+            });
+            var lightboxVideo = GLightbox({
+                selector: '.glightbox3'
+            });
+            lightboxVideo.on('slide_changed', ({ prev, current }) => {
+                console.log('Prev slide', prev);
+                console.log('Current slide', current);
+
+                const { slideIndex, slideNode, slideConfig, player } = current;
+
+                if (player) {
+                    if (!player.ready) {
+                        // If player is not ready
+                        player.on('ready', (event) => {
+                            // Do something when video is ready
+                        });
+                    }
+
+                    player.on('play', (event) => {
+                        console.log('Started play');
+                    });
+
+                    player.on('volumechange', (event) => {
+                        console.log('Volume change');
+                    });
+
+                    player.on('ended', (event) => {
+                        console.log('Video ended');
+                    });
+                }
+            });
+
+            var lightboxInlineIframe = GLightbox({
+                selector: '.glightbox4'
+            });
+
+            /* var exampleApi = GLightbox({ selector: null });
+            exampleApi.insertSlide({
+                href: 'https://picsum.photos/1200/800',
+            });
+            exampleApi.insertSlide({
+                width: '500px',
+                content: '<p>Example</p>'
+            });
+            exampleApi.insertSlide({
+                href: 'https://www.youtube.com/watch?v=WzqrwPhXmew',
+            });
+            exampleApi.insertSlide({
+                width: '200vw',
+                content: document.getElementById('inline-example')
+            });
+            exampleApi.open(); */
+        </script>
     </body>
 </html>
