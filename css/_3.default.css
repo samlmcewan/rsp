@@ -738,7 +738,8 @@ color: var(--red);
 }
 
 .project-cards .card img {
-    height: 279.944px;
+    /* height: 279.944px; */
+    height: auto;
     object-fit: cover;
  }
 
@@ -762,6 +763,21 @@ color: var(--red);
    bottom: 0;
    left: 1px;
 }
+
+/* Paging  */
+
+.paging  .page-link, .paging .page-item:last-child .page-link {
+    border-color: #ffffff;
+    color: var(--gray-dark);
+    border-radius: 0;
+}
+.paging .page-item.active .page-link {
+    background-color: transparent;
+    border: 2px solid var(--gray-light);
+    border-radius: 0;
+    color: var(--gray-dark);
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs 

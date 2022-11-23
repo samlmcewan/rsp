@@ -223,6 +223,10 @@ height: 16rem;
        .project-banner svg, .project-banner img {
         right: 0;
     }
+    .project-cards .card-title {
+       
+        font-size: .94rem;
+    }
 
   /*Footer */
     
