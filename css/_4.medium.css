@@ -260,4 +260,7 @@ footer .stats-angle {
   
     height: 300px;
 }
+footer p, footer li, footer a {
+    font-size: 0.75rem;
+}
 }

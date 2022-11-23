@@ -927,7 +927,7 @@ z-index: -9;
 footer {
     /*background-color: var(--black);*/
     /*background-color: var(--mid-25);*/
-    border-top: 1px solid var(--gray-dark);
+    border-top: 1px solid var(--gray-mid);
     padding-top: 4rem;
 }
 
