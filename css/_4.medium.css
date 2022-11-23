@@ -171,12 +171,24 @@ height: 16rem;
 }
 .inner-banner h1 {
     margin-top: 5rem;
-    font-size: 3.25rem;
+    font-size: 2.8rem;
  }
  .inner-banner svg, .inner-banner img {
     width: 55%;
     opacity: 1;
  }
+
+ .inner-banner  .banner-photo {
+    width: auto;
+    height: 60%;
+    object-fit: cover;
+    position: absolute;
+    right: 12%;
+    bottom: calc(50% - 30%);
+   }
+ /* Breadcrumbs  */
+ .breadcrumb-item, .breadcrumb-item a  {
+    font-size: 1rem;}
 /* Our story  */
 .our-story .angle-bg {
     height: 125vh;
@@ -214,6 +226,7 @@ height: 16rem;
         padding-bottom: 3rem;
     
        }
+
 
        /* Projects */
        .filters .control {
