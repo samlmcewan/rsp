@@ -4,7 +4,7 @@
  new Swiper('.sliderGallery', {
     allowTouchMove: false,
     speed: 1500,
-    loop: false,
+    loop: true,
     spaceBetween: 0,
    
     // slidesPerGroup: 0,
