@@ -204,6 +204,12 @@
    /* margin-bottom: -3rem!important; */
 }
 /* fix height  */
+#testimonials-carousel .img-bg, #testimonials-carousel .box-img {
+   height: 100%!important;
+}
+   #testimonials-carousel .swiper-slide.swiper-slide-next {
+      width: auto!important;
+  }
 #testimonials-carousel .swiper-slide-duplicate-prev {
    height: 0;
 }
