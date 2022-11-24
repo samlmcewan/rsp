@@ -574,6 +574,15 @@ color: var(--red);
 /*--------------------------------------------------------------
 # Testimonials slider
 --------------------------------------------------------------*/
+.skew-container {
+    position: relative;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.skew-container .skew {
+    top: 0;
+}
 /* Slider image  */
 #testimonials-carousel .swiper-slide.swiper-slide-next {
     width: 55%!important;
@@ -606,7 +615,43 @@ color: var(--red);
 }
 
 
+#testimonials-carousel .testimonial-footer {
+    font-size: 1rem;
+    font-weight: 500;
+}
 
+/* fix height  */
+#testimonials-carousel .swiper-slide-duplicate-prev {
+    height: 0;
+}
+#testimonials-carousel .img-bg {
+
+    transition: width 0s, height 0s, opacity 2s, background-color 2s;
+
+}
+
+#testimonials-carousel .box-img {
+    transition: width 0s, height 0s, opacity 2s, background-color 2s;
+ 
+}
+/* Prev (invisible) slider image  */
+#testimonials-carousel .swiper-slide.swiper-slide-prev .img-bg {
+    height: calc(770px/2);
+}
+#testimonials-carousel .swiper-slide.swiper-slide-prev .box-img {
+
+    height: calc(770px/2);
+ 
+}
+.testimonial-footer {
+    font-size: 1rem;
+}
+
+.testimonial-line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid var(--gray-mid);
+}
 /*--------------------------------------------------------------
 # Inner banner
 --------------------------------------------------------------*/
@@ -734,7 +779,9 @@ color: var(--red);
     padding-right: 1rem;
 }
 /* Project cards  */
-
+.project-cards {
+     border-bottom: 1px solid var(--gray-mid);
+}
 .project-cards a {
     text-decoration: none;
 }
@@ -944,7 +991,9 @@ z-index: -9;
 /* Memberships */
 
 /* Awards  */
-
+.awards {
+    border-bottom: 1px solid var(--gray-mid);
+}
 .swiper-button-next::after {
     color: var(--gray-dark);
 }
@@ -969,7 +1018,7 @@ z-index: -9;
 footer {
     /*background-color: var(--black);*/
     /*background-color: var(--mid-25);*/
-    border-top: 1px solid var(--gray-mid);
+    /* border-top: 1px solid var(--gray-mid); */
     padding-top: 4rem;
 }
 

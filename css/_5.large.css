@@ -187,7 +187,47 @@
    padding-right: 1rem;
   }
 
+/* testimonials  */
+.skew-container {
 
+   margin-top: 10rem;
+   margin-bottom: 5rem;
+}
+.skew-container .skew {
+   top: 0;
+}
+/* fix height  */
+#testimonials-carousel .swiper-slide-duplicate-prev {
+   height: 0;
+}
+#testimonials-carousel .img-bg {
+
+   transition: width 0s, height 0s, opacity 2s, background-color 2s;
+
+}
+
+#testimonials-carousel .box-img {
+   transition: width 0s, height 0s, opacity 2s, background-color 2s;
+
+}
+/* Prev (invisible) slider image  */
+#testimonials-carousel .swiper-slide.swiper-slide-prev .img-bg {
+   height: calc(770px/2);
+}
+#testimonials-carousel .swiper-slide.swiper-slide-prev .box-img {
+
+   height: calc(770px/2);
+
+}
+.testimonial-footer {
+   font-size: 1rem;
+}
+
+.testimonial-line {
+   width: 100%;
+   height: 2px;
+   border-bottom: 1px solid var(--gray-mid);
+}
 
  /*Footer */
     

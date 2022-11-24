@@ -150,10 +150,10 @@
     }
 
 /* Testimonials  */
-#testimonials-carousel .swiper-slide.swiper-slide-next .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-next .box-img, #testimonials-carousel .swiper-slide.swiper-slide-active .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-active .box-img, #testimonials-carousel .swiper-slide.swiper-slide-prev .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-prev .box-img
+/* #testimonials-carousel .swiper-slide.swiper-slide-next .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-next .box-img, #testimonials-carousel .swiper-slide.swiper-slide-active .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-active .box-img, #testimonials-carousel .swiper-slide.swiper-slide-prev .img-bg, #testimonials-carousel .swiper-slide.swiper-slide-prev .box-img
  {
     height: 100%;
- }
+ } */
 
  /*--------------------------------------------------------------
 # Inner banner
@@ -255,6 +255,9 @@ height: 16rem;
         font-size: 1rem;
     }
 
+
+
+    
   /*Footer */
     
   footer  .nes-logo {
