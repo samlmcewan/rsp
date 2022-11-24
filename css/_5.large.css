@@ -190,11 +190,18 @@
 /* testimonials  */
 .skew-container {
 
-   margin-top: 10rem;
-   margin-bottom: 5rem;
+   /* margin-top: 10rem;
+   margin-bottom: 5rem; */
 }
 .skew-container .skew {
-   top: 0;
+   /* top: 0; */
+}
+.skew-top {
+    margin-bottom: -3rem;
+}
+.skew-inner {
+   padding-top: 0rem!important;
+   /* margin-bottom: -3rem!important; */
 }
 /* fix height  */
 #testimonials-carousel .swiper-slide-duplicate-prev {

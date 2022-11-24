@@ -2,4 +2,10 @@
     .philosophy .angle-bg {
         /* clip-path: polygon(0 50%, 85% 30%, 100% 35%, 100% 70%, 75% 60%, 0 70%); */
     }
+    .skew-top {
+        margin-top: 4rem!important;
+    }
+    .skew-top .skew {
+        transform: skewY(356deg);
+    }
 }

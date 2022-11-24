@@ -110,22 +110,22 @@ console.log(toLoop);
 
    new Swiper('.sliderTestimonials', {
     speed: 2000,
-    loop: toLoop,
+    loop: false,
     spaceBetween: 0,
     simulateTouch:false,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
     },
-    slidesPerView: 'auto',
+    slidesPerView: 1,
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '#t-next',
+      prevEl: '#t-prev',
     }
 
     

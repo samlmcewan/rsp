@@ -158,6 +158,16 @@
  /*--------------------------------------------------------------
 # Inner banner
 --------------------------------------------------------------*/
+
+.skew-top {
+    margin-bottom: -1rem;
+}
+.skew-inner {
+    margin-bottom: -1.5rem;
+}
+.skew-inner .skew {
+    transform: skewY(-6.5deg);
+}
 .angle-line-banner {
     border-top: 1px solid #212529;
     rotate: 351deg;
