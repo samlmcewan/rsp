@@ -6,6 +6,9 @@
         /* clip-path: polygon(0 50%, 85% 25%, 100% 35%, 100% 70%, 75% 60%, 0 70%); */
        clip-path: polygon(0 50%, 85% 20%, 100% 35%, 100% 72%, 75% 65%, 0 80%);
     }
+    .skew-inner {
+        margin-bottom: -5rem;
+    }
 
     
 }

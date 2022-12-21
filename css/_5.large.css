@@ -197,12 +197,15 @@
    /* top: 0; */
 }
 .skew-top {
-    margin-bottom: -3rem;
+    /* margin-bottom: -2.5rem;
+    margin-top: -5rem; */
+  
 }
 .skew-inner {
    padding-top: 0rem!important;
    /* margin-bottom: -3rem!important; */
 }
+
 /* fix height  */
 #testimonials-carousel .img-bg, #testimonials-carousel .box-img {
    height: 100%!important;

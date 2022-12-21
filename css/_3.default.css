@@ -355,6 +355,10 @@ hr {
 .skew-inner .skew {
     transform: skewY(347deg);
 }
+.skew-top {
+    /* margin-bottom: -6rem; */
+    margin-top: -1rem;
+}
 
 /*--------------------------------------------------------------
 # Welcome
